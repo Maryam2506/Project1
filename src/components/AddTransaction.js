@@ -1,7 +1,8 @@
 import React, { useState, useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { GlobalContext } from "../context/GlobalState";
-
+import { toast ,ToastContainer} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 const AddTransaction = () => {
   const { addIncome, addExpense } = useContext(GlobalContext);
 
@@ -20,9 +21,14 @@ const AddTransaction = () => {
     e.preventDefault();
 
     if (incomeText === ""){
-      alert("Name must be filled out")
+      toast.error("Empty Field 😴", {
+        position: toast.POSITION.TOP_CENTER
+      });
     }
     else {
+      toast.success("Added Successfully 😊", {
+        position: toast.POSITION.TOP_CENTER
+      })
       const newIncomeTransaction = {
         id: uuidv4(),
         incomeText,
@@ -53,8 +59,13 @@ const AddTransaction = () => {
     e.preventDefault();
 
     if (expenseText === "") {
-      alert("Name must be filled out");
+      toast.error("Empty Field 😴", {
+        position: toast.POSITION.TOP_CENTER
+      });
     } else {
+      toast.success("Added Sucessfully 😊", {
+        position: toast.POSITION.TOP_CENTER
+      })
       const newExpenseTransaction = {
         id: uuidv4(),
         expenseText,
@@ -73,8 +84,11 @@ const AddTransaction = () => {
   return (
     <div className="form-wrapper">
       <form onSubmit={onSubmitIncome}>
+      <ToastContainer/>
+    
         <div className="input-group income">
           <input
+       
             type="text"
             name="incomeText"
             value={incomeText}
@@ -114,6 +128,7 @@ const AddTransaction = () => {
           <input type="submit" value="Submit" />
         </div>
       </form>
+   
     </div>
   );
 };

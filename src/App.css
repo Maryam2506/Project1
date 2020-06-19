@@ -157,11 +157,11 @@ html {
 }
 
 .income input:not([type="submit"]):focus {
-  border-bottom: 0.2rem solid #77c987;
+  border-bottom: 0.2rem solid #d3dad5;
 }
 
 .expense input:not([type="submit"]):focus {
-  border-bottom: 0.2rem solid #ff716e;
+  border-bottom: 0.2rem solid #d62320;
 }
 
 .input-group input[type="submit"] {
