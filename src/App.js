@@ -1,16 +1,26 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import Balance from "./components/Balance";
+import IncomeList from "./components/IncomeList";
+import ExpenseList from "./components/ExpenseList";
+import AddTransaction from "./components/AddTransaction";
+import { GlobalContextProvider } from "./context/GlobalState";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
-     <h1>Hello World</h1> 
-     <h2>Some text is here</h2> 
-     <p>Soeeeeesdsdsds</p>
-     <h3>Soe text by me</h3>
-    </div>
+    <GlobalContextProvider>
+      <div className="container">
+        <div className="app-wrapper">
+          <Header />
+          <Balance />
+          <IncomeList />
+          <ExpenseList />
+          <AddTransaction />
+        </div>
+      </div>
+    </GlobalContextProvider>
   );
-}
+};
 
 export default App;
