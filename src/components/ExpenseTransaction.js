@@ -12,9 +12,10 @@ const ExpenseTransaction = ({ expenseTransaction }) => {
       </span>
       <button
         onClick={() => deleteTransaction(expenseTransaction.id)}
-        className="delete-btn"
+        className="delete-btn expense"
       >
-        <i class="material-icons">clear</i>
+      <i class="fa">&#xf014;</i>
+     
       </button>
     </li>
   );
