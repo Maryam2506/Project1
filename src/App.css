@@ -337,21 +337,46 @@ input[type="number"]::-webkit-inner-spin-button {
     width: 28rem;
   }
 }
-
-@media (max-width: 360px) {
+@media (max-width: 720px) {
   html {
-    font-size: 33%;
+    font-size: 32%;
   }
 
+  .input-group input:not([type="submit"]) {
+    width: 34rem;
+  }
   .app-wrapper {
     grid-gap: 0;
+
   }
 
   .transaction-list {
-    max-height: 20rem;
+    max-height: 28rem;
   }
 
   .transaction {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 32%;
+  }
+
+  .input-group input:not([type="submit"]) {
     width: 20rem;
+  }
+  .app-wrapper {
+    grid-gap: 0;
+
+  }
+
+  .transaction-list {
+    max-height: 14rem;
+  }
+
+  .transaction {
+    width: 15rem;
   }
 }
