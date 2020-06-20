@@ -21,7 +21,7 @@ const AddTransaction = () => {
     e.preventDefault();
 
     if (incomeText === ""){
-      toast.error("Empty Field 😴", {
+      toast.error("Income Field is Empty 😴", {
         position: toast.POSITION.TOP_CENTER
       });
     }
@@ -59,7 +59,7 @@ const AddTransaction = () => {
     e.preventDefault();
 
     if (expenseText === "") {
-      toast.error("Empty Field 😴", {
+      toast.error("Expense Field is Empty 😴", {
         position: toast.POSITION.TOP_CENTER
       });
     } else {
