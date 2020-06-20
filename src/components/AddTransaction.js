@@ -26,7 +26,7 @@ const AddTransaction = () => {
       });
     }
     else {
-      toast.success("Added Successfully 😊", {
+      toast.success("Income Added Successfully 😊", {
         position: toast.POSITION.TOP_CENTER
       })
       const newIncomeTransaction = {
@@ -63,7 +63,7 @@ const AddTransaction = () => {
         position: toast.POSITION.TOP_CENTER
       });
     } else {
-      toast.success("Added Sucessfully 😊", {
+      toast.success("Expense Added Sucessfully 😊", {
         position: toast.POSITION.TOP_CENTER
       })
       const newExpenseTransaction = {
