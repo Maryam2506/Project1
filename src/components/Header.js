@@ -1,4 +1,6 @@
 import React from "react";
+
+// Libary used for font 
 import { Wave } from "react-animated-text";
 
 const Header = () => {

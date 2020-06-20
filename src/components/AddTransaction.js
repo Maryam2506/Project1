@@ -1,8 +1,12 @@
 import React, { useState, useContext } from "react";
-import { v4 as uuidv4 } from "uuid";
 import { GlobalContext } from "../context/GlobalState";
+
+// Libraries Used
+import { v4 as uuidv4 } from "uuid";
 import { toast ,ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+
+
 const AddTransaction = () => {
   const { addIncome, addExpense } = useContext(GlobalContext);
 

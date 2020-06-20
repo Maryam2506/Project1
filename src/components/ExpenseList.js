@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
+
+// Other Component Attached
 import ExpenseTransaction from "./ExpenseTransaction";
 
 const ExpenseList = () => {
