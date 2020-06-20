@@ -26,7 +26,7 @@ html {
   background-image: linear-gradient(135deg, #bcafa3 0%, #9ec2d7 100%);
   color: #eee;
   border-radius: 0.5rem;
-  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.55);
   display: grid;
   grid-template-columns: minmax(38%, 40rem) repeat(2, minmax(29%, 29rem));
   grid-template-rows: repeat(10, 1fr);
