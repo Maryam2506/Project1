@@ -1,0 +1,26 @@
+.header {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-family: "Muli", serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #f46036;
+    text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+  }
+  .header h2 {
+    font-family: "Muli", serif;
+    font-size: 2rem;
+    font-weight: 280;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #3a3331;
+    text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+  }

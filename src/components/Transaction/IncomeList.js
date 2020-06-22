@@ -1,8 +1,11 @@
 import React, { useContext } from "react";
-import { GlobalContext } from "../context/GlobalState";
+import { GlobalContext } from "../../context/GlobalState";
+
 
 // Other Component Attached
 import IncomeTransaction from "./IncomeTransaction";
+//CSS
+import './transaction.css'
 
 const IncomeList = () => {
   const { incomeTransactions } = useContext(GlobalContext);

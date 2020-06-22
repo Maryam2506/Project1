@@ -3,6 +3,9 @@ import React from "react";
 // Libary used for font 
 import { Wave } from "react-animated-text";
 
+// CSS
+import './header.css'
+
 const Header = () => {
   return (
     <div className="header">

@@ -1,10 +1,13 @@
 import React, { useState, useContext } from "react";
-import { GlobalContext } from "../context/GlobalState";
+import { GlobalContext } from "../../context/GlobalState";
 
 // Libraries Used
 import { v4 as uuidv4 } from "uuid";
 import { toast ,ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+
+// Css
+import './AddTransaction.css';
 
 
 const AddTransaction = () => {

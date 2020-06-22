@@ -1,11 +1,11 @@
 import React from "react";
 
 // Component of this App
-import Header from "./components/Header";
-import Balance from "./components/Balance";
-import IncomeList from "./components/IncomeList";
-import ExpenseList from "./components/ExpenseList";
-import AddTransaction from "./components/AddTransaction";
+import Header from "./components/Header/Header";
+import Balance from "./components/balance/Balance";
+import IncomeList from "./components/Transaction/IncomeList";
+import ExpenseList from "./components/Transaction/ExpenseList";
+import AddTransaction from "./components/AddTransaction/AddTransaction";
 import { GlobalContextProvider } from "./context/GlobalState";
 
 // All Css Added
