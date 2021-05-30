@@ -1,3 +1,4 @@
+<b> Expentra: </b>
 This is an income and expense App for your daily expenses, which will make you save money. Use this daily expense manager to keep
 under control all your finances in a simple way.
 
