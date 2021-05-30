@@ -1,3 +1,20 @@
+This is an income and expense App for your daily expenses, which will make you save money. Use this daily expense manager to keep
+under control all your finances in a simple way.
+
+You can easily keep track of your bills, income and expenses for your personal finance or as an income and expense App for business.
+
+★ Features ★
+
+✔️ No-brainer, with this its simple and attractive design, this money manager lets you organise your daily expenses easily.
+
+✔️ You'll be able to use the app always for free.
+
+See the Demo: 
+
+Link: http://best-expense-tracker.surge.sh/ 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
