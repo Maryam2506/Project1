@@ -14,6 +14,10 @@ See the Demo:
 
 Link: http://best-expense-tracker.surge.sh/ 
 
+How its look like(ScreenShot): 
+
+<img src="8fee-11ea-8a78-ddfe8c3412a7.png" width=50% height=50%>
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
