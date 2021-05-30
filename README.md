@@ -1,3 +1,5 @@
+## Expentra
+###  `(Income and Expense App)`
 <b> Expentra: </b>
 This is an income and expense App for your daily expenses, which will make you save money. Use this daily expense manager to keep
 under control all your finances in a simple way.
@@ -16,7 +18,7 @@ Link: http://best-expense-tracker.surge.sh/
 
 How its look like(ScreenShot): 
 
-<img src="sreenshot.png" width=100% height=100%>
+![screenshot](https://user-images.githubusercontent.com/58718438/120098358-e0ea6680-c14e-11eb-8f77-8bbc164c70d6.png)
 
 
 
